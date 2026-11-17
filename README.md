@@ -7,7 +7,7 @@ em produção, usado por prefeituras, com bases de dados de grande volume.
 **Stack:** Ruby · Rails 8 · PostgreSQL · Sidekiq/Redis · Hotwire (Turbo/Stimulus) · RSpec · Docker · Argo CD · GitHub Actions
 
 ### O que faço bem
-- Encontro e elimino N+1 e consultas lentas no PostgreSQL: já levei uma tela de 292 para 24 queries e uma busca de 5,3 s para 134 ms
+- Performance em Rails e PostgreSQL: diagnóstico de N+1, consultas lentas e planos de execução, com ganhos medidos em telas e buscas de grande volume
 - Busca tolerante a acentos e erros de digitação com pg_search, pg_trgm e unaccent
 - Jobs Sidekiq idempotentes e integrações com APIs externas (REST e SOAP)
 - Telas Hotwire sem SPA e testes RSpec (model, request, system)
